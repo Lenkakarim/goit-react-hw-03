@@ -1,9 +1,6 @@
 :root {
-  --font: Helvetica, Arial, sans-serif;
-  --main-color: rgba(18, 17, 17, 0.87);
-
-  font-family: var(--font);
-  color: var(--main-color);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgba(18, 17, 17, 0.87);
   background-color: rgba(230, 198, 176, 0.906);
   line-height: 1.5;
   font-weight: 400;

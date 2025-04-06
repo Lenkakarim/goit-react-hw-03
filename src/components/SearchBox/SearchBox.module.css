@@ -1,0 +1,10 @@
+.text {
+  font-weight: 600;
+}
+.input {
+  width: 320px;
+  height: 32px;
+  border: 2px solid black;
+  margin-bottom: 24px;
+  background-color: antiquewhite;
+}

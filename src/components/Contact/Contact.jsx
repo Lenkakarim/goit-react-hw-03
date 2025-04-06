@@ -4,15 +4,15 @@ import { FaPhone } from "react-icons/fa";
 
 const Contact = ({ name, number, id, onDelete }) => {
   return (
-    <li className={s.userItem}>
-      <div className={s.userInfo}>
-        <p className={s.userName}>
+    <li className={s.item}>
+      <div className={s.card}>
+        <p className={s.name}>
           <span>
             <FaUser size={20} />
           </span>
           {name}
         </p>
-        <p className={s.userPhone}>
+        <p className={s.phone}>
           <span>
             <FaPhone size={20} />
           </span>
@@ -21,7 +21,7 @@ const Contact = ({ name, number, id, onDelete }) => {
       </div>
       <button
         type="button"
-        className={s.btnDeleteUser}
+        className={s.btn}
         onClick={() => onDelete(id)}
       >
         Delete

@@ -28,7 +28,7 @@ const ContactForm = ({ onAdd }) => {
     options.resetForm();
   };
   return (
-    <div className={s.formWrapper}>
+    <div>
       <Formik
         initialValues={initialValues}
         onSubmit={handleSubmit}
